@@ -50,3 +50,66 @@
 	</body>
 
 </html>
+
+## Produtos.html
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+			<title> Produtos - Barbearia Alura </title>
+
+                <link rel="stylesheet" href="reset.css">
+                <link rel="stylesheet" href="produtos.css">
+	</head>
+
+	<body>
+
+    	<header>
+        	<div class="caixa">
+            <h1><img src="logo.png"></h1>
+	   			<nav>
+            		<ul>
+              			<li><a href-"index.html">Home</a></li>
+              			<li><a href-"produtos.html">Produtos</a></li>
+              			<li><a href-"contato.html">Contato</a></li>
+           			</ul>
+	   			</nav> 
+	  		</div>
+    	</header>
+
+    <main>
+    	<ul class="produtos">
+    		<li>
+    			<h2>Cabelo</h2>
+    			<img src="cabelo.jpg">
+    			<p class="produto-descricao">Temos uma <strong>PROMOÇÃO</strong> imperdível para tratamentos capilares e progressivas!!</p>
+    			<p class="produto-preco">A PARTIR DE R$120,00</p>
+    		</li>
+
+    		<li>
+    			<h2>Corporal</h2>
+    			<img src="barba.jpg">
+    			<p class="produto-descricao">Tratamentos estéticos para estrias, celulites, flacidez e d'entre outros</p>
+    			<p class="produto-preco">A PARTIR DE R$150,00</p>
+    		</li>
+
+    		<li>
+    			<h2>Depilação</h2>
+    			<img src="cabelo+barba.jpg">
+    			<p class="produto-descricao">Pacote completo de depilação</p>
+    			<p class="produto-preco">R$230,00</p>
+    		</li>
+    	</ul>
+   	</main>
+
+   	<footer>
+   		<img src="logo-branco.png">
+   		<p class="copyright">&copy; Copyright Clínica Diazer- 2018
+   	</footer>
+
+	</body>
+
+</html>
